@@ -1,0 +1,31 @@
+Users
+DesignTypes(Logo|Flyer|Social Media|Social Media)
+Assets(Shape|Images|Text|Tempates)
+Designs()
+
+Users: {
+	username:"",
+	email:"",
+	dob:"",
+	phone:"",
+	password:"",
+	verified:false,
+}
+
+Assets: {
+	type:"Shape|Images|Text|Tempates|Mockups",
+	data:"",
+}
+
+DesignTypes: {
+	type:"Logo|Flyer|Social Media|Social Media",
+	sub_div:[""]
+}
+
+Designs: {
+	title:"",
+	pages:[data:{}],
+	width:100,
+	height:100,
+	likes:1,
+}
