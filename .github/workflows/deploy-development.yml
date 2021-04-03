@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1 # This is the action
+      - uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1 # This is the action
         with:
           ftp_host: ${{ secrets.FTP_HOST }}
           ftp_username: ${{ secrets.FTP_USERNAME }}
