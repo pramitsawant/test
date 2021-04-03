@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tailwindcss',
+    title: 'deployment-test-app',
     htmlAttrs: {
       lang: 'en'
     },
@@ -31,19 +31,21 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios' 
+    '@nuxtjs/axios',
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  // Content module configuration: https://go.nuxtjs.dev/config-content
+  content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
