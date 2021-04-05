@@ -2,7 +2,11 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - stage
+      - dev
+      - lead-master
+      - core-master
+      - dam-master
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
