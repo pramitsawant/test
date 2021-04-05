@@ -1,6 +1,6 @@
 <template>
 <section class="home">
- <h1>Master</h1>
+ <h1>Dam Master</h1>
 </section>
 
 </template>
