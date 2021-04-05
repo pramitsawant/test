@@ -8,7 +8,7 @@ on:
       - core-master
       - dam-master
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [closed]
 jobs:
   sonarcloud:
     name: SonarCloud
